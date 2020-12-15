@@ -1,7 +1,7 @@
-import { timeStamp } from "console";
+import { timeStamp } from 'console';
 
-import { name } from "../src/export";
+import { name } from '../src/export';
 
-test("test", () => {
-  expect(name).toEqual("Badsaikush");
+test('test', () => {
+  expect(name).toEqual('Badsaikush');
 });
