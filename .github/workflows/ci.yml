@@ -32,6 +32,6 @@ jobs:
       - name: build check
         run: yarn tsc
       - name: ts-node check
-        run: tsc src/index.ts
+        run: yarn ts-node src/index.ts
       - name: Prettier check
         run: yarn prettier:check
