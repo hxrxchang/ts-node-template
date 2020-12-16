@@ -4,7 +4,8 @@
   "scripts": {
     "test": "jest",
     "format": "yarn prettier --write .",
-    "prettier:check": "yarn prettier --check ."
+    "prettier:check": "yarn prettier --check .",
+    "tsn": "ts-node"
   },
   "devDependencies": {
     "@types/jest": "26.0.19",
