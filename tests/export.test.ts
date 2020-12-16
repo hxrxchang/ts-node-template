@@ -1,5 +1,3 @@
-import { timeStamp } from 'console';
-
 import { name } from '../src/export';
 
 test('test', () => {
