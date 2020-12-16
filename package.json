@@ -3,7 +3,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "format": "yarn prettier --write ."
+    "format": "yarn prettier --write .",
+    "prettier:check": "yarn prettier --check ."
   },
   "devDependencies": {
     "@types/jest": "26.0.19",
